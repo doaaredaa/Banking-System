@@ -126,7 +126,7 @@ Fact Table: Transaction Table
 ![SSAS1](https://github.com/doaaredaa/Banking-System/assets/164890615/2c4f768c-43a6-4b2f-a556-b76cbef5dc57)
 
 #### ● Reporting using SSRS
-![6](https://github.com/doaaredaa/Banking-System/assets/164890615/2d73e816-484f-404d-9ea0-e8ed23b7b326)
+![SSRS](https://github.com/doaaredaa/Banking-System/assets/164890615/2899e1ee-836a-4fd6-bac0-76a5caca6dc8)
 
 ## 5. Visualization
 #### ● Using Power BI
