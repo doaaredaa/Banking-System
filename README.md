@@ -132,6 +132,7 @@ Fact Table: Transaction Table
 ##### The analysis of the Bank application history data of sales, customer, product, and operations departments to figure out the company's performance to get an overview insight of both departments will empower the company to make data-driven decisions that can lead to increased revenue, cost savings, improved customer satisfaction, and enhance overall business performance. It allows businesses to respond to market dynamics, customer preferences, and operational challenges more effectively and provides valuable insights to the operations, marketing, and sales teams for informed decision-making.
 
 *Watch and Try IT Using* [My Dashboard](https://www.novypro.com/project/banking-system-%7C-analysis-dashboard)
+
 ![Power BI](https://github.com/doaaredaa/Banking-System/assets/164890615/8431f32a-024e-458d-80b6-1c05a9e33df6)
 #### ● Using Tableau
 ![WhatsApp Image 2024-03-23 at 1 31 37 AM](https://github.com/doaaredaa/Banking-System/assets/164890615/209224c3-0df0-4593-ab0e-1acc8b831595)
