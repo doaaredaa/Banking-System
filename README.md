@@ -122,8 +122,9 @@ Fact Table: Transaction Table
 #### ● Integration using SSIS
 ![Fact](https://github.com/doaaredaa/Banking-System/assets/164890615/32a2d528-4a9e-4e0b-8bd0-974e19e2c6e3)
 #### ● Cube Generation
-##### The cube is generalized about Business and Specified for the CEO And CMO Should closely track financial performance, set clear goals, and analyze key metrics to measure profits. they must identify and manage risks by conducting assessments and creating strategies to mitigate potential threats.
-![0](https://github.com/doaaredaa/Banking-System/assets/164890615/cb950501-22cf-4e4c-bf23-0af55f2c284e)
+##### The cube is generalized about Business and Specified for the CEO and the CMO should closely track financial performance, set clear goals, and analyze key metrics to measure profits. they must identify and manage risks by conducting assessments and creating strategies to mitigate potential threats.
+![SSAS1](https://github.com/doaaredaa/Banking-System/assets/164890615/2c4f768c-43a6-4b2f-a556-b76cbef5dc57)
+
 #### ● Reporting using SSRS
 ![6](https://github.com/doaaredaa/Banking-System/assets/164890615/2d73e816-484f-404d-9ea0-e8ed23b7b326)
 
