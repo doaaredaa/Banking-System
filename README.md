@@ -1,13 +1,14 @@
 # Banking System Graduation Project (ITI)
 ## 1. Banking System Design
-#### First we Received a Required Document from the client.
+#### ● We received a Required Document from the client
 ![Screenshot 2023-10-22 210826](https://github.com/Ahmedelbermawy/Bank_system_graduation_project/assets/133806022/921f5c42-373c-4302-9adc-ba5e8257950f)
-#### Second We Start to Draw The ERD.
+#### ● We Start to Draw The ERD
 ![ERD (1)](https://github.com/doaaredaa/Banking-System/assets/164890615/1e7598e0-facd-4b6d-b600-32f1e356d216)
-#### Thrid We Start to Execute The Mapping.
+#### ● We Start to Execute The Mapping
 ![Mapping (1)](https://github.com/doaaredaa/Banking-System/assets/164890615/14708e53-4e7b-4421-93fb-d8da8161d3f0)
-#### Fourth implementation of OLTP schema.
+#### ● implementation of OLTP schema
 ![OLTP_Final](https://github.com/doaaredaa/Banking-System/assets/164890615/05d818b2-c3f0-4a65-b70b-5b3dd98b8d77)
+
 ## 2. Let's go for structure
 ```
 CREATE DATABASE [Union_Bank]
@@ -105,8 +106,44 @@ CREATE TABLE [dbo].[Transcations](
  CONSTRAINT [pk9] PRIMARY KEY CLUSTERED 
 GO
 ```
+
 ## 3. Data Warehousing
-#### Denormalized database into Star Schema.
+#### ● Denormalized database into Star Schema
+```
+Business Process "Transactions "
+Grain "Low Level"
+Dimensions -----> Account - Branch - Customer -ATM - Date - card
+Fact Table: Transaction Table
+```
+#### ● Star OLTP schema
+![Capture](https://github.com/doaaredaa/Banking-System/assets/164890615/699247fa-f866-404a-8e05-f9f6adb8f66d)
+
+## 4. Business Intelligence Using SSIS & SSAS & SSRS
+#### ● Integration using SSIS
+![Fact](https://github.com/doaaredaa/Banking-System/assets/164890615/32a2d528-4a9e-4e0b-8bd0-974e19e2c6e3)
+#### ● Cube Generation
+##### The cube is generalized about Business and Specified for the CEO And CMO Should closely track financial performance, set clear goals, and analyze key metrics to measure profits. they must identify and manage risks by conducting assessments and creating strategies to mitigate potential threats.
+![0](https://github.com/doaaredaa/Banking-System/assets/164890615/cb950501-22cf-4e4c-bf23-0af55f2c284e)
+#### ● Reporting using SSRS
+![6](https://github.com/doaaredaa/Banking-System/assets/164890615/2d73e816-484f-404d-9ea0-e8ed23b7b326)
+
+## 5. Visualization
+#### ● Using Power BI
+##### The analysis of the Bank application history data of sales, customer, product, and operations departments to figure out the company's performance to get an overview insight of both departments will empower the company to make data-driven decisions that can lead to increased revenue, cost savings, improved customer satisfaction, and enhance overall business performance. It allows businesses to respond to market dynamics, customer preferences, and operational challenges more effectively and provides valuable insights to the operations, marketing, and sales teams for informed decision-making.
+
+*Watch and Try IT Using* [My Dashboard](https://www.novypro.com/project/banking-system-%7C-analysis-dashboard)
+![Power BI](https://github.com/doaaredaa/Banking-System/assets/164890615/8431f32a-024e-458d-80b6-1c05a9e33df6)
+#### ● Using Tableau
+![WhatsApp Image 2024-03-23 at 1 31 37 AM](https://github.com/doaaredaa/Banking-System/assets/164890615/209224c3-0df0-4593-ab0e-1acc8b831595)
+
+
+
+
+
+
+
+
+
 
 
 
