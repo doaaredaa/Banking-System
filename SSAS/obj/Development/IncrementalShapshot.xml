@@ -1,0 +1,82 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>Final Project</Database>
+    <Server>desktop-6vcrmm3\MOLAP</Server>
+    <ConnectionString>Data Source=desktop-6vcrmm3\MOLAP;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>zn4B7GmJuy4NHKbQeH+TlD2StKk=3/14/2024 5:34:19 AM3/14/2024 5:34:19 AM</TimeStamp>
+        <ID>
+          <String>Transaction Data Source</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>Z0mFKhkutSaAJh3OIoS4Mc5QBAw=3/14/2024 5:37:15 AM3/14/2024 5:37:15 AM</TimeStamp>
+        <ID>
+          <String>Transaction Data View</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>7p0eIqzrS8Ndk1AKCHpVc1iZw6g=3/14/2024 6:33:07 AM3/14/2024 5:42:35 AM</TimeStamp>
+        <ID>
+          <String>Dim Atm Branch</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>cGqJj+B08cELXfKRDoY7MoagQiE=3/14/2024 6:33:46 AM3/14/2024 5:42:35 AM</TimeStamp>
+        <ID>
+          <String>Dim Transaction</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NfhMd6MmbIyqM1YNIJ9FPYIldWI=3/14/2024 6:34:34 AM3/14/2024 5:42:35 AM</TimeStamp>
+        <ID>
+          <String>Dim Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ubGQD8hOGJKWy8SlTAbZanvr2hI=3/14/2024 6:36:23 AM3/14/2024 5:42:35 AM</TimeStamp>
+        <ID>
+          <String>Dim Account Customer</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>oOmH+ospS6H53kwo+C2WrDIZNB0=3/14/2024 6:36:23 AM3/14/2024 5:42:34 AMy007ijwLJifN5rLdZQOwrSGUh/o=3/14/2024 5:42:35 AM3/14/2024 5:42:35 AM</TimeStamp>
+        <ID>
+          <String>Transaction Cube_01</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>D/7/Y84EX8WZFr0JHKxBSLDA9y4=3/14/2024 2:20:09 AM3/14/2024 2:20:09 AM</TimeStamp>
+      <ID>
+        <String>Final Project</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2024-03-14T04:36:38.993333Z</LastDeployed>
+</DeploymentSnapshot>
